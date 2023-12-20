@@ -1,0 +1,6 @@
+.comingsoon {
+    -webkit-mask-image: url("../img/Coming\ Soon.svg");
+    mask-image: url("../img/Coming\ Soon.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }

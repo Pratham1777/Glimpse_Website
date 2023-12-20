@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Teko:wght@700&display=swap');
+
+.sponsor-section{
+  display: flex;
+  width: 100%;
+  border: 3px solid rgb(22, 19, 46);
+  flex-wrap: wrap;
+  background-image: url("images/sponsors_logo/dark/night/sky.jpg");
+}
+
+.title-sponsor-cont{
+  display: block;
+  padding: 3vh;
+}
+
+.title-sponsor-card{
+  margin: auto;
+}
+
+.title-sponsor img{
+  margin: 3vh;
+  padding: 1vh;
+}
+
+.title-sponsor img{
+  max-width: 70vw;
+  max-height: 20vh;
+}
+
+
+.sponsor-card{
+  margin: 1vh;
+  border-radius: 5px;
+}
+
+.title-sponsor-card{
+  width: fit-content;
+  /* background-color: rgba(0, 0, 255, 0.1); */
+}
+
+
+
+.title-label{
+  margin: auto;
+  width: max-content;
+  font-family: 'Archivo';
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.seperator{
+    border-bottom: 2px solid rgb(30, 21, 59);
+    margin: 5px;
+}
+
+.companyLogo, .companyLabel{
+    display: block;
+    text-align: center;
+    margin: 1vh;
+}
+
+.companyLogo{
+  display: flex;
+  /* min-width: 20vh; */
+  height: 18vh;
+  width: auto;
+  padding: 1vh;
+  padding: 1vw;
+}
+
+
+
+.companyLogo img{
+  object-fit: contain;
+  height: 90%;
+  /* margin: auto;
+  max-width:min-content;
+  height: auto;
+  width: auto; */
+  /* max-height: 100%; */
+}
+
+.companyLabel label, .title-label label{
+  font-family: 'Archivo';
+  font-weight: bold;
+  font-size: 2vh;
+  color: black;
+}
+
+.companyLabel label{
+  width: min-content;
+}
+
+
+
+
+

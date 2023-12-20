@@ -1,0 +1,25 @@
+.main-heading {
+  position: relative;
+  font-family: 'roboto';
+  font-weight: 900;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: white;
+  text-transform: uppercase;
+  /* z-index: 10; */
+  margin: 2rem 0;
+  
+}
+
+.main-heading-stroke {
+  /* z-index: 9; */
+  content: attr(data-content);
+  position: absolute;
+  width: 100%;
+  /* left: 0; */
+  top: 1vh;
+  font-weight: bolder;
+  font-family: 'roboto';
+  font-size: clamp(5vh, 6vw, 5rem);
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(214, 255, 220, 0.328);
+}
